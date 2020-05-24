@@ -18,7 +18,6 @@ except Exception:
 stg_order = []
 stg_ol = []
 stg_dl = []
-count_disp = 0
 #Iterat over the json
 for order in obj.get("Order", []):
     order_row = [order["OrderId"], order["OrderDate"], order["OrderSource"], url, datetime.now()]
@@ -28,15 +27,13 @@ for order in obj.get("Order", []):
         stg_ol.append(ol_row)
     dispatches = order.get("Dispatches", [])
     if dispatches is not None:
-        count_disp = 0
         for d in order.get("Dispatches", []):
-             if order["OrderId"]=='101180131661':
-                 print(1)
              for dl in d.get("DispatchedLines", []):
+                 # flag for skipping appand dl loop . if dl exsist - update quantity and break loop
                  skip_adding_dl = 0
                  # for first run
                  if len(stg_dl) > 0:
-                     # for accumolate quantity of dl
+                     # for accumolate quantity of existing dl
                      for exsits_product in stg_dl:
                          if exsits_product[1] == d["DispatchReference"] and exsits_product[4] == dl["ProductDescription"]:
                             exsits_product[5] += dl["Quantity"]
