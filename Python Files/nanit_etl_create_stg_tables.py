@@ -17,7 +17,6 @@ except Exception:
     #return default value
 stg_order = []
 stg_ol = []
-stg_dispatch = []
 stg_dl = []
 count_disp = 0
 #Iterat over the json
