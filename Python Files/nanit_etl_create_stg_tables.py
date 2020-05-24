@@ -67,7 +67,7 @@ try:
             product_description, quantity, data_source, dwh_updated_at) 
                 VALUES (%s, %s, %s ,%s ,%s ,%s ,%s, %s) """, stg_dl)
     db.commit()
-    print(c.rowcount, "Records inserted successfully into stg tables")
+    print(c.rowcount, "All data was inserted successfully into stg tables")
 except Exception:
     "fail to execute query"
 c.close()

@@ -53,6 +53,6 @@ try:
     db.commit()
 except Exception:
     "fail to execute query"
-print(c.rowcount, "Record inserted successfully into dwh fact table")
+print(c.rowcount, "All data was inserted successfully into dwh fact table")
 c.close()
 db.close()
