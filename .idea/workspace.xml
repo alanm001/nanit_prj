@@ -115,38 +115,38 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state width="1515" height="261" key="GridCell.Tab.0.bottom" timestamp="1590423434622">
+    <state width="757" height="210" key="GridCell.Tab.0.bottom" timestamp="1590423839804">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="261" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1590423434622" />
-    <state width="1515" height="261" key="GridCell.Tab.0.center" timestamp="1590423434622">
+    <state width="757" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1590423839804" />
+    <state width="757" height="210" key="GridCell.Tab.0.center" timestamp="1590423839804">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="261" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1590423434622" />
-    <state width="1515" height="261" key="GridCell.Tab.0.left" timestamp="1590423434622">
+    <state width="757" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1590423839804" />
+    <state width="757" height="210" key="GridCell.Tab.0.left" timestamp="1590423839804">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="261" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1590423434622" />
-    <state width="1515" height="261" key="GridCell.Tab.0.right" timestamp="1590423434622">
+    <state width="757" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1590423839804" />
+    <state width="757" height="210" key="GridCell.Tab.0.right" timestamp="1590423839804">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="261" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1590423434622" />
-    <state width="1515" height="261" key="GridCell.Tab.1.bottom" timestamp="1590423406294">
+    <state width="757" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1590423839804" />
+    <state width="1515" height="261" key="GridCell.Tab.1.bottom" timestamp="1590423626334">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1590423406294" />
-    <state width="1515" height="261" key="GridCell.Tab.1.center" timestamp="1590423406294">
+    <state width="1515" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1590423626334" />
+    <state width="1515" height="261" key="GridCell.Tab.1.center" timestamp="1590423626334">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1590423406294" />
-    <state width="1515" height="261" key="GridCell.Tab.1.left" timestamp="1590423406294">
+    <state width="1515" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1590423626334" />
+    <state width="1515" height="261" key="GridCell.Tab.1.left" timestamp="1590423626334">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1590423406294" />
-    <state width="1515" height="261" key="GridCell.Tab.1.right" timestamp="1590423406294">
+    <state width="1515" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1590423626334" />
+    <state width="1515" height="261" key="GridCell.Tab.1.right" timestamp="1590423626334">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1590423406294" />
+    <state width="1515" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1590423626334" />
     <state x="277" y="57" key="SettingsEditor" timestamp="1590423507053">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -159,6 +159,11 @@
           <url>file://$PROJECT_DIR$/Python Files/nanit_etl_create_dwh_tables.py</url>
           <line>4</line>
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Python Files/nanit_etl_create_stg_tables.py</url>
+          <line>48</line>
+          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
