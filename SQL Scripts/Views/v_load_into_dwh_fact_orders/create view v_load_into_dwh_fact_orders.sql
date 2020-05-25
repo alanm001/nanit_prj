@@ -13,7 +13,7 @@ join (select order_id,product_description,unit_cost,sum(quantity) quantity
 		from stg_order_lines
 		group by order_id,product_description,unit_cost) ol on o.order_id = ol.order_id 
 left join stg_dispatch_lines dl on ol.order_id = dl.order_id and ol.product_description = dl.product_description
-left join (select order_id,GROUP_CONCAT(distinct product_description order by product_description) as products_ordered_together
+left join (select order_id,GROUP_CONCAT(distinct product_description order by product_description SEPARATOR', ') as products_ordered_together
 		   from nanit.stg_order_lines
 		   group by order_id
 		   ) f1 on o.order_id = f1.order_id 
